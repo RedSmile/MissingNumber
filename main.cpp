@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 
 int main() {
-	int s[]{0,3,1};
+	int s[]{9,6,4,2,3,5,7,0,1};//<---
 	const int sizea = (sizeof(s) / 4) + 1;
 	int sa[sizea]{};
 	int a = 0, zero = 0, num = 0;
